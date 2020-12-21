@@ -116,7 +116,7 @@ const FoodDetails: React.FC = () => {
   }
 
   function handleDecrementFood(): void {
-    if (foodQuantity === 0) return;
+    if (foodQuantity === 1) return;
 
     setFoodQuantity(foodQuantity - 1);
   }
